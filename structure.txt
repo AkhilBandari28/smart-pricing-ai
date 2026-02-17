@@ -1,0 +1,17 @@
+smart-pricing-ai/
+│
+├── app/
+│   ├── main.py                # FastAPI entry
+│   ├── schemas.py             # Request / Response DTOs
+│   ├── model.py               # ML logic
+│   ├── trainer.py             # Model training
+│   ├── predictor.py           # Prediction logic
+│
+├── data/
+│   └── negotiations.csv       # Training data (exported)
+│
+├── models/
+│   └── price_model.pkl        # Saved ML model
+│
+├── requirements.txt
+└── README.md
